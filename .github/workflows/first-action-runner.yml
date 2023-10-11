@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "This is just a test!"
-      - name: Print goodbye
-        run: echo "I am done"
+      - name: Print greeting and say hasta vista
+        run: |
+          echo "This is just a test!"
+          echo echo "I am done"
